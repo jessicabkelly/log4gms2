@@ -1,5 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
+// AUTHOR: Jessica Kelly, @Anatithenai 
+
 function pad_string(_string_to_pad,_pad_char,_pad_length,_pad_left){
 	if (string_length(_string_to_pad) < _pad_length)
 	{
