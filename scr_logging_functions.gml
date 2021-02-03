@@ -1,6 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
+// AUTHOR: Jessica Kelly, @Anatithenai
+
 global.log4gms2_log_level_trace = 0;
 global.log4gms2_log_level_debug = 1;
 global.log4gms2_log_level_info = 2;
