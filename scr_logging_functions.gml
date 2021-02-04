@@ -95,7 +95,7 @@ function log_message(_log_level, _message){
 			
 			if (global.log4gms2_log_current_num_entries_in_file >= global.log4gms2_log_max_entries_in_file)
 			{
-				file_text_close(global.log_file_id);
+				file_text_close(global.log4gms2_log_file_id);
 				global.log4gms2_log_file_created = true;
 				global.log4gms2_log_current_num_entries_in_file = 0;
 				set_log_filename();
